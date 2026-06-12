@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI简历优化助手</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI简历优化助手</h1>
+    <form action="/resume" method="post">
+        <p>求职目标：</p>
+        <input
+            type="text"
+            name="target"
+        >
+        <p>简历内容：</p>
+        <textarea
+            name="resume"
+            rows="10"
+            cols="60">
+        </textarea>
+        <br><br>
+        <button class="submit-btn">
+            开始优化
+        </button>
+    </form>
+    <hr>
+</div>
+<div class="result-box">
+
+    <h2>优化结果</h2>
+
+    <p>{{ result }}</p>
+
+</div>
+</body>
+</html>
