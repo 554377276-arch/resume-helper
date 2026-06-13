@@ -66,4 +66,4 @@ def optimize_resume(request: Request,target: str = Form(...),resume: str = Form(
 #     ↓
 # 浏览器显示
 
-print("hello score-feature")
+print("hello from feature")
