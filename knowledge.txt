@@ -1,0 +1,4 @@
+FastAPI是一个用于构建Web API的Python框架。
+RAG是一种结合检索和生成的AI技术。
+Embedding可以把文本转换成向量。
+Git用于版本管理代码。
